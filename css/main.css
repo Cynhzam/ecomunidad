@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 70%;
+}
+header a {
+	color: #585858;
+	border-right: 1px solid #585858;
+	padding: 1% 4%;
+}
+a:not(.excepto) {
+	border-right: 1px solid #585858;
+}
+.encabezado {
+	background-image: url("../img/semilla.jpg");
+	height: 400px;
+}
+.fondo-text {
+	background-image: url("../img/fondo2.jpg");
+	color: #585858;
+}
+.mision {
+	color: #585858;
+	width: 30%;
+}
+.fondo-metodologia{
+	background-image: url("../img/fondo.jpg");
+}
+.icono-metodologia {
+	width: 10%;
+}
+.icono-servicios {
+	width: 60%;
+}
+.proyectos {
+	margin-left: 5%;
+}
+.img-equipo {
+	border-radius: 50%;
+	width: 70%;
+}
+.redes-equipo {
+	width: 10%;
+}
+.link {
+	width: 2%;
+}
+p {
+	font-size: 15px;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 20px;
+}
+.slider-anterior{
+	position: absolute;
+	left: 0;
+	width: 3%;
+}
+.slider-siguiente{
+	position: absolute;
+	right: 0;
+	width: 3%;
+}
+.cuadro-red {
+	border: 1px solid white;
+	height: 200px;
+	width: 250px;
+	padding: 2%;
+}
+.icono-redes {
+	width: 25%;
+}
